@@ -57,20 +57,20 @@ fetch(url)
     High: ${daysData[6].high}°F
     Chance of Rain: ${daysData[6].rainy}%`;
 
-    const day8 = ` ${daysData[7].date}: 
-    Low: ${daysData[7].low}°F
-    High: ${daysData[7].high}°F
-    Chance of Rain: ${daysData[7].rainy}%`;
+    // const day8 = ` ${daysData[7].date}: 
+    // Low: ${daysData[7].low}°F
+    // High: ${daysData[7].high}°F
+    // Chance of Rain: ${daysData[7].rainy}%`;
 
-    const day9 = ` ${daysData[8].date}: 
-    Low: ${daysData[8].low}°F
-    High: ${daysData[8].high}°F
-    Chance of Rain: ${daysData[8].rainy}%`;
+  //   const day9 = ` ${daysData[8].date}: 
+  //   Low: ${daysData[8].low}°F
+  //   High: ${daysData[8].high}°F
+  //   Chance of Rain: ${daysData[8].rainy}%`;
 
-    const day10 = ` ${daysData[9].date}: 
-   Low: ${daysData[9].low}°
-    High: ${daysData[9].high}°F
-   Chance of Rain: ${daysData[9].rainy}%`;
+  //   const day10 = ` ${daysData[9].date}: 
+  //  Low: ${daysData[9].low}°
+  //   High: ${daysData[9].high}°F
+  //  Chance of Rain: ${daysData[9].rainy}%`;
 
 
   // add temps/chance of rain to the cards
@@ -95,14 +95,14 @@ fetch(url)
     const daySeven = document.getElementById("day7");
     daySeven.innerText = day7;
 
-    const dayEight = document.getElementById("day8");
-    dayEight.innerText = day8;
+    // const dayEight = document.getElementById("day8");
+    // dayEight.innerText = day8;
 
-    const dayNine = document.getElementById("day9");
-    dayNine.innerText = day9;
+    // const dayNine = document.getElementById("day9");
+    // dayNine.innerText = day9;
 
-    const dayTen = document.getElementById("day10");
-    dayTen.innerText = day10;
+    // const dayTen = document.getElementById("day10");
+    // dayTen.innerText = day10;
 
     // get icon photos and add to card
     const dayOnePic = document.getElementById("dayOnePic");
@@ -126,14 +126,14 @@ fetch(url)
     const daySevenPic = document.getElementById("daySevenPic");
     daySevenPic.setAttribute("src", daysData[6].pic);
 
-    const dayEightPic = document.getElementById("dayEightPic");
-    dayEightPic.setAttribute("src", daysData[7].pic);
+    // const dayEightPic = document.getElementById("dayEightPic");
+    // dayEightPic.setAttribute("src", daysData[7].pic);
 
-    const dayNinePic = document.getElementById("dayNinePic");
-    dayNinePic.setAttribute("src", daysData[8].pic);
+    // const dayNinePic = document.getElementById("dayNinePic");
+    // dayNinePic.setAttribute("src", daysData[8].pic);
 
-    const dayTenPic = document.getElementById("dayTenPic");
-    dayTenPic.setAttribute("src", daysData[9].pic);
+    // const dayTenPic = document.getElementById("dayTenPic");
+    // dayTenPic.setAttribute("src", daysData[9].pic);
   });
 
   // map with urls for each icon code on weather api site
